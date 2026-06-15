@@ -53,11 +53,9 @@ else
     let deleteButton = card.querySelector('.delete-button');    
     deleteButton.onclick = function() {
         card.remove();
-        studentCount--;
-
-document.getElementById("count").textContent =
-"Total Students : " + studentCount;
-
+        studentCount--; 
+        document.getElementById("count").textContent = "Total Students : " + studentCount;
+ 
     };
 
     // FIX 2: Changed 'student-list' to match your HTML id 'studentList' exactly
