@@ -1,0 +1,9 @@
+user fills form
+
+click add employee
+
+javascript collects data
+
+object created
+
+stored in array
